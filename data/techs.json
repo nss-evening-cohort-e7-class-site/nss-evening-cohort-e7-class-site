@@ -6,9 +6,9 @@
       "link": "https://www.javascript.com/"
     },
     {
-      "name": "AngularJS",
-      "image": "images/techs/angularjs.png",
-      "link": "https://angularjs.org/"
+      "name": "React",
+      "image": "images/techs/react.png",
+      "link": "https://reactjs.org/"
     },
     {
       "name": "jQuery",
@@ -71,9 +71,9 @@
       "link": "https://www.npmjs.com/"
     },
     {
-      "name": "SQLite3",
-      "image": "images/techs/sqlite.png",
-      "link": "https://www.sqlite.org/"
+      "name": "Dapper",
+      "image": "images/techs/dapper.png",
+      "link": "https://dapper-tutorial.net/"
     },
     {
       "name": "SQL Server",
@@ -109,11 +109,6 @@
       "name": "ES lint",
       "image": "images/techs/eslint.png",
       "link": "https://eslint.org/"
-    },
-    {
-      "name": "UglifyJs",
-      "image": "images/techs/uglify.png",
-      "link": "https://www.npmjs.com/package/uglifyjs"
     }
   ]
 }
