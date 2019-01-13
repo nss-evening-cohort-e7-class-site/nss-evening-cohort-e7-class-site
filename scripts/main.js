@@ -84,13 +84,13 @@ function cohortMembers(list) {
 
 
     studentInfo += `
-      
+
     ${item.bio}
     </div>
     <center><button type="button" data-dismiss="modal" class="backButton btn btn-outline-primary title-font bottom" aria-label="Close">
       Back
               </button></center>
-            
+
           </div >
         </div >
       </div > `;
@@ -132,3 +132,16 @@ function techs(list) {
       </div>`;
   });
 };
+
+
+window.onscroll = (e) => {
+  const cohortMems = document.querySelectorAll('.cohortMems');
+  [...cohortMems].forEach(mem => {
+    const pos = mem.getBoundingClientRect();
+    if (pos.top < window.innerHeight) {
+      mem.classList.add('fade-in');
+    }
+
+  })
+
+}

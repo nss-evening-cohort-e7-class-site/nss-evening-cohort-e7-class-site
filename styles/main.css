@@ -205,7 +205,7 @@ button{
 @media (min-width: 768px) and (max-width: 991px){
     .fa-3x{
         font-size: 2em!important;
-      }    
+      }
 }
 
 
@@ -247,4 +247,18 @@ button{
         padding-right: none;
       }
 
+}
+.cohortMems {
+    opacity: 0;
+}
+.fade-in {
+    animation: fadein 1s ease-in forwards;
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
