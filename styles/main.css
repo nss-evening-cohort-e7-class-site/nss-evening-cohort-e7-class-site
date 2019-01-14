@@ -31,7 +31,7 @@ blockquote{
   margin-right: 2em;
 }
 
-#cohort22{
+#cohortE7{
     display: inline-block;
     color: #238193;
 }
@@ -103,15 +103,16 @@ main {
     box-shadow: none;
 }
 
-.technos, .words{
+.words{
     margin-top: -55px;
     background: white;
     padding:20px;
     border-radius: 20px;
+    opacity: 0;
 }
 
 .techs{
-    width: 70px;
+    max-width: 75px;
     margin: 20px 0px;
   }
 
@@ -250,6 +251,7 @@ button{
 }
 
 
+
 section h2.section-heading {
   font-size: 40px;
   margin-top: 104px;
@@ -287,4 +289,57 @@ section h3.section-subheading {
 .col-sm-4 {
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
+
+.cohortMems {
+    opacity: 0;
+}
+.fade-in {
+    animation: fadein 700ms ease-in forwards;
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/*-----TICKER STYLES------>*/
+
+@keyframes ticker {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-100%, 0, 0); }
+}
+
+.tcontainer{
+  width: 100%;
+  overflow: hidden;
+  margin-top: 0px;
+}
+.ticker-wrap {
+  width: 100%;
+  padding-left: 20%;
+  background-color: white;
+}
+.ticker-move {
+  display: inline-block;
+  white-space: nowrap;
+  padding-right: 0;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: ticker;
+  animation-duration: 40s;
+}
+.ticker-move:hover{
+  animation-play-state: paused;
+}
+.ticker-item{
+  display: inline-block;
+  padding: 0 2rem;
+}
+
+#technologies-header {
+  margin-bottom: 0;
+
 }
