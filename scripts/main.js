@@ -84,13 +84,13 @@ function cohortMembers(list) {
 
 
     studentInfo += `
-      
+
     ${item.bio}
     </div>
     <center><button type="button" data-dismiss="modal" class="backButton btn btn-outline-primary title-font bottom" aria-label="Close">
       Back
               </button></center>
-            
+
           </div >
         </div >
       </div > `;
@@ -126,7 +126,7 @@ function techs(list) {
   let data = list.techs;
   data.forEach(function (item) {
     document.getElementById("techs").innerHTML +=
-      `<div class="col-sm-2 technologies">
+      `<div class="ticker-item technologies">
          <center><a href="${item.link}" target="_blank"><img class="techs" src="${item.image}" alt="${item.name}" data-toggle="tooltip" data-placement="top" title="${item.name}"></a><br>
          </center>
       </div>`;
