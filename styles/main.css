@@ -289,7 +289,7 @@ section h3.section-subheading {
 .col-sm-4 {
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
-
+}
 .cohortMems {
     opacity: 0;
 }
