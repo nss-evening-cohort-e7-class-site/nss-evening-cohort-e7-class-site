@@ -237,15 +237,15 @@
     {
       "id": 19,
       "firstName": "Thomas",
-      "lastName": "Dungan",
+      "lastName": "Dugan",
       "reelThemIn": "You miss 100% of the shots you don't take. -Wayne Gretzky. - Michael Scott",
       "bio": "<p></p>",
       "github": "https://github.com/ledugani",
       "linkedIn": "https://www.linkedin.com/in/tom-dugan/",
       "portfolio": "https://personal-site-128be.firebaseapp.com/",
       "email": "tdugan85@gmail.com",
-      "proImg": "images/classmates/ThomasDungan.jpg",
-      "funImg": "images/classmates/ThomasDungan_Fun.jpg"
+      "proImg": "images/classmates/ThomasDugan.jpg",
+      "funImg": "images/classmates/ThomasDugan_Fun.jpg"
     }
   ]
 }
