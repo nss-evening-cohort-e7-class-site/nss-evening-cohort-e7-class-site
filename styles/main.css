@@ -316,6 +316,7 @@ section h3.section-subheading {
   width: 100%;
   overflow: hidden;
   margin-top: 0px;
+  margin-bottom: 5%;
 }
 .ticker-wrap {
   width: 100%;
@@ -340,6 +341,6 @@ section h3.section-subheading {
 }
 
 #technologies-header {
-  margin-bottom: 0;
+  margin-bottom: 0%;
 
 }
